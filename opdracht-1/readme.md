@@ -1,5 +1,6 @@
 # Voice input chat
-This is a chat using your voice to input the text instead of typing. The application is a Real-time app using voice recognision from the browser.
+This is a chat using your voice to input the text instead of typing. 
+The application is a Real-time app using voice recognision from the browser.
 
 ![Cover image of the app](doc-images/image-cover.png)
 
@@ -31,7 +32,7 @@ The following is possible with this application:
 The following is used in this project:
 
 - [socket.io][socket] for the real time exchange
-- [nodemon][nodmeon] for restarting the server on file change
+- [nodemon][nodemon] for restarting the server on file change
 - [pug][pug] as template engine
 - `webkitSpeechRecognition` for the speak recognision
 - [Now][now] using for deployment
@@ -40,6 +41,11 @@ The following is used in this project:
 The following bugs are still present:
 
 - [ ] After saying the input you can change the value of the result the voice api gives back and use it as a regular chat input.  
+
+# Deploy
+I've used [now][now] to deploy the app.🎉🎉
+
+![now](doc-images/now.png)
 
 # Todo
 This is what is left to do.
