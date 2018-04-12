@@ -22,19 +22,18 @@ app.get('/', (req, res) => {
 })
 
 io.on('connection', function(socket){
+  io.sockets.clients()
+  
   socket.on('chat message', function(msg){
-    console.log('message: ' + msg)
-  })
+    var msg = msg.replace(/f\*\*\*/g, 'I need some help');
+    io.emit('chat message', msg);
+  });
   socket.on('disconnect', function(){
     console.log('user disconnected')
   })
 })
+console.log(io.sockets.clients())
 
-io.on('connection', function(socket){
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
-  });
-});
 
 http.listen(3000, function(){
   console.log('listening on *:3000');

@@ -45,6 +45,8 @@ This is what is left to do.
 
 - [ ] The ability to use it as a normal chat if the user does not want to use the voice api
 
+- [ ]  Deploy the app.
+
 
 [socket]: https://socket.io/
 [nodemon]: https://nodemon.io/

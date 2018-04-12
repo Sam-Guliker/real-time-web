@@ -5,6 +5,7 @@ var recognition = new webkitSpeechRecognition();
 var input = document.querySelector('#m')
 var microphone = document.querySelector('#hodler')
 var feedback = document.querySelector('form')
+var button = document.querySelector('form button')
 
 recognition.lang = "en-US";
 recognition.interimResults = false;
@@ -24,3 +25,7 @@ recognition.onspeechend = function() {
   recognition.stop();
   feedback.classList.add('active')
 }
+
+button.addEventListener('click', function(){
+  feedback.classList.remove('active')
+})

@@ -2,16 +2,13 @@ extends layout
 
 block content
   main
-    h1 speech colorhanger
-    p(class='hints')
-    p tab/click then say a color to change the back
-    div
-      p(class='output')
-        em diagnostic messages
-    p#msg
+    header
+      h1 Speech Chat
+      p Click on the microphone to start chatting.
+    p(class='output')
     ul#messages
     form(action='')
-      p did you say?
+      p Did you say?
       input#m(autocomplete='off' type="text")
       button Send
     div#hodler
