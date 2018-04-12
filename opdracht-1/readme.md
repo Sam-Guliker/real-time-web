@@ -55,7 +55,7 @@ This is what is left to do.
 - [x] Deploy the app. 
 - [x] Give the user feedback
 - [ ] The ability to use it as a normal chat if the user does not want to use the voice api
-- [ ] Add a more global filter *eyes*
+- [ ] Add a more global filter :eyes:
 
 
 [now]: https://zeit.co/now
