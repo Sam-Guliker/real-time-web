@@ -3,9 +3,9 @@
 [The App](https://vocal-catch-xspgyuqxno.now.sh)
 
 
-This is a chat using your voice to input the text instead of typing. 
-The application is a Real-time app using voice recognision from the browser.
-It also filters f*** out of the chat and replaces it with `I need some help.`
+This is a chat using your voice to input the text instead of typing.  
+The application is a Real-time app using voice recognision from the browser.  
+It also filters f*** out of the chat and replaces it with `I need some help.`  
 
 ![Cover image of the app](doc-images/image-cover.png)
 
@@ -36,12 +36,12 @@ The following is possible with this application:
 # Used Technology
 The following is used in this project:
 
-- [socket.io][socket] for the real time exchange
-- [nodemon][nodemon] for restarting the server on file change
-- [pug][pug] as template engine
+- [socket.io] [socket] for the real time exchange
+- [nodemon] [nodemon] for restarting the server on file change
+- [pug] [pug] as template engine
 - `webkitSpeechRecognition` for the speak recognision
-- [Now][now] using for deployment
-- Regex[regex] to filter out the curse words.
+- [Now] [now] using for deployment
+- Regex [regex] to filter out the curse words.
 
 # Deploy
 I've used [now][now] to deploy the app.🎉🎉
