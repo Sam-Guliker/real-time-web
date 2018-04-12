@@ -66,3 +66,4 @@ This is what is left to do.
 [socket]: https://socket.io/
 [nodemon]: https://nodemon.io/
 [pug]: https://pugjs.org/
+[regex]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
