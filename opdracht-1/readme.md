@@ -28,6 +28,12 @@ The following is possible with this application:
 - Use your voice instead of typing to communicate.
 
 # Used Technology
+The following is used in this project:
+
+- [socket.io][socket] for the real time exchange
+- [nodemon][nodmeon] for restarting the server on file change
+- [pug][pug] as template engine
+- `webkitSpeechRecognition` for the speak recognision
 
 # Bugs
 The following bugs are still present:
@@ -38,3 +44,8 @@ The following bugs are still present:
 This is what is left to do.
 
 - [ ] The ability to use it as a normal chat if the user does not want to use the voice api
+
+
+[socket]: https://socket.io/
+[nodemon]: https://nodemon.io/
+[pug]: https://pugjs.org/
