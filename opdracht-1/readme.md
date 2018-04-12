@@ -45,10 +45,12 @@ The following bugs are still present:
 This is what is left to do.
 
 - [ ] The ability to use it as a normal chat if the user does not want to use the voice api
+- [ ] Give the user feedback
 
-- [ ]  Deploy the app.
+- [x] Deploy the app. 
 
 
+[now]: https://zeit.co/now
 [socket]: https://socket.io/
 [nodemon]: https://nodemon.io/
 [pug]: https://pugjs.org/
