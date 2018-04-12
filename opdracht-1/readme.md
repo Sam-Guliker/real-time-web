@@ -1,7 +1,7 @@
 # Voice input chat
 This is a chat using your voice to input the text instead of typing. The application is a Real-time app using voice recognision from the browser.
 
-![Cover image of the app](https://github.com/Sam-Guliker/real-time-web/blob/master/opdracht-1/doc-images/cover-image.png)
+![Cover image of the app](doc-images/cover-image.png)
 
 # Table of Content
 - [Getting started](#getting-started)
