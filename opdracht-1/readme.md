@@ -1,6 +1,7 @@
 # Voice input chat
 This is a chat using your voice to input the text instead of typing. 
 The application is a Real-time app using voice recognision from the browser.
+It also filters f*** out of the chat and replaces it with `I need some help.`
 
 ![Cover image of the app](doc-images/image-cover.png)
 
@@ -36,24 +37,25 @@ The following is used in this project:
 - [pug][pug] as template engine
 - `webkitSpeechRecognition` for the speak recognision
 - [Now][now] using for deployment
-
-# Bugs
-The following bugs are still present:
-
-- [ ] After saying the input you can change the value of the result the voice api gives back and use it as a regular chat input.  
+- Regex[regex] to filter out the curse words.
 
 # Deploy
 I've used [now][now] to deploy the app.🎉🎉
 
 ![now](doc-images/now.png)
 
+# Bugs
+The following bugs are still present:
+
+- [ ] After saying the input you can change the value of the result the voice api gives back and use it as a regular chat input.  
+
 # Todo
 This is what is left to do.
 
-- [ ] The ability to use it as a normal chat if the user does not want to use the voice api
-- [ ] Give the user feedback
-
 - [x] Deploy the app. 
+- [x] Give the user feedback
+- [ ] The ability to use it as a normal chat if the user does not want to use the voice api
+- [ ] Add a more global filter *eyes*
 
 
 [now]: https://zeit.co/now
