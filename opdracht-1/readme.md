@@ -1,6 +1,6 @@
 # Voice input chat
 
-[The App](https://vocal-catch-xspgyuqxno.now.sh)
+[The App](https://vocal-catch-aqksljhxpr.now.sh)
 
 
 This is a chat using your voice to input the text instead of typing.  
