@@ -36,12 +36,12 @@ The following is possible with this application:
 # Used Technology
 The following is used in this project:
 
-- [socket.io] [socket] for the real time exchange
-- [nodemon] [nodemon] for restarting the server on file change
-- [pug] [pug] as template engine
+- [socket.io] for the real time exchange
+- [nodemon] for restarting the server on file change
+- [pug] as template engine
 - `webkitSpeechRecognition` for the speak recognision
-- [Now] [now] using for deployment
-- Regex [regex] to filter out the curse words.
+- [Now] using for deployment
+- Regex to filter out the curse words.
 
 # Deploy
 I've used [now][now] to deploy the app.🎉🎉
