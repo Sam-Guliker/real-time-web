@@ -36,7 +36,7 @@ The following is possible with this application:
 # Used Technology
 The following is used in this project:
 
-- [socket.io] for the real time exchange
+- [socket] for the real time exchange
 - [nodemon] for restarting the server on file change
 - [pug] as template engine
 - `webkitSpeechRecognition` for the speak recognision
